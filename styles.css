@@ -88,11 +88,29 @@ body {
 }
 @media (max-width: 600px) {
   body {
-    font-size: 16px;
+    margin: 0;
+    padding: 0;
     text-align: center;
   }
+
+  h1, h2, p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
   img {
+    display: block;
+    margin: 15px auto;
     width: 85%;
     height: auto;
   }
+
+  .question-container,
+  .result,
+  .container {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+  }
 }
+
