@@ -1,4 +1,4 @@
-/* 🌈 Base Styles */
+/*  Base Styles */
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #a2c2e0, #f4f9f9);
@@ -120,7 +120,7 @@ h1, h2, p {
   background-color: #26c6da;
 }
 
-/* 📱 Responsive (Mobile Friendly) */
+/* Responsive (Mobile Friendly) */
 @media (max-width: 600px) {
   body {
     padding: 10px;
@@ -156,5 +156,6 @@ h1, h2, p {
     height: auto;
   }
 }
+
 
 
